@@ -51,6 +51,7 @@ hr {
 
 nav {
     display: flex;
+    top: 0;
 }
 
 .navbar-clip-1 {
