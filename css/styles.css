@@ -77,7 +77,7 @@ nav {
 .navbar-clip-2 img {
     width: 90px;
     height: auto;
-    position: relative;
+    position: absolute;
     z-index: 3;
     right: 0;
     margin-right: 1rem;
