@@ -127,6 +127,14 @@ nav {
     margin-bottom: .2rem;
 }
 
+.projects-heading hr {
+    margin-bottom: 4rem;
+}
+
+.projects-container {
+    margin-bottom: 3rem;
+}
+
 .projects-container hr {
     margin-top: 3rem;
     margin-bottom: 4rem;
@@ -137,12 +145,12 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 19rem;
     margin: 0 auto;
 }
 
 .project-card img {
-    width: 20rem;
+    width: 19rem;
     height: 10rem;
 }
 
