@@ -1,3 +1,73 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+
+    .heading-container h1 {
+        font-size: 2em;
+    }
+
+    .heading-container hr {
+        width: 20vw;
+    }
+
+    .projects-container {
+        width: 80vw;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .navbar-clip-1 {
+        height: 130px;
+    }
+
+    .navbar-clip-2 {
+        height: 150px;
+    }
+
+    .navbar-clip-2 img {
+        width: 170px;
+        margin-right: 3rem;
+        margin-top: 2.5rem;
+    }
+
+    .heading-container h1 {
+        font-size: 4em;
+        margin-bottom: 1rem;
+    }
     
+    .heading-container hr {
+        width: 12vw;
+    }
+    
+    .heading-container p {
+        font-size: 1.2em;
+    }
+
+    .button {
+        width: 15rem;
+    }
+
+    .projects-heading h1 {
+       font-size: 2.2em;
+   }
+   
+    .projects-container {
+       width: 60vw;
+       margin-bottom: 10rem;
+   }
+
+   .project-card h2 {
+       font-size: 2.6em;
+   }
+
+   .project-card p {
+       font-size: 1em;
+   }
+
+   .project-card svg {
+       width: 3rem;
+       height: 3rem;
+   }
+
 }
