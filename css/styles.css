@@ -138,22 +138,25 @@ nav {
 }
 
 .projects-container hr {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .project-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     margin: 0 auto;
+    /* background-color: var(--light-blue); */
+    padding: 1rem;
+    padding-bottom: 0;
+    border-radius: 2px;
 }
 
 .project-card img {
     width: 100%;
-    
+    border: 1px solid var(--main-bg-color);
+    border-radius: 2px;
 }
 
 
@@ -171,11 +174,13 @@ nav {
 
 .icon-container {
     align-self: flex-start;
+    padding: 1rem;
+    padding-top: 0;
 }
 
 .icon-container svg {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     fill: var(--main-heading);
     margin-right: 1rem;
 }
