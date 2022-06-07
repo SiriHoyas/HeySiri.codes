@@ -2,11 +2,15 @@ const url = "http://localhost:1337/api/projects?populate=coverImage";
 const projectsContainer = document.querySelector(".projects-container");
 
 async function renderProjects() {
-  const response = await fetch(url);
-  const result = await response.json();
+  try {
+    const response = await fetch(url);
+    const result = await response.json();
 
-  for (let i = 0; i < result.data.length; i++) {
-    createHTML(result.data[i]);
+    for (let i = 0; i < result.data.length; i++) {
+      createHTML(result.data[i]);
+    }
+  } catch (error) {
+    projectsContainer.innerHTML = `<div class="error"><div>`;
   }
 }
 
