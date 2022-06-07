@@ -39,5 +39,6 @@ git clone
 Feel free to contact me here:
 
 [My LinkedIn page](https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/)
+![image](https://cdn-icons.flaticon.com/png/512/2504/premium/2504918.png?token=exp=1654636836~hmac=0dbfc0530295b50f071b0f726ba3ea43)
 
 [My Instagram](https://www.instagram.com/sirihoyas/)
