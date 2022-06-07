@@ -155,6 +155,7 @@ nav {
 
 .project-card img {
     width: 100%;
+    
     border: 1px solid var(--main-bg-color);
     border-radius: 2px;
 }
