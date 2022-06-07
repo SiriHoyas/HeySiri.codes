@@ -1,4 +1,4 @@
-const url = "http://localhost:1337/api/projects?populate=coverImage";
+const url = "http://localhost:1337/api/projects?populate=*";
 const projectsContainer = document.querySelector(".projects-container");
 
 async function renderProjects() {
@@ -6,6 +6,7 @@ async function renderProjects() {
     const response = await fetch(url);
     const result = await response.json();
 
+    console.log(result);
     for (let i = 0; i < result.data.length; i++) {
       createHTML(result.data[i]);
     }
