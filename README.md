@@ -1,6 +1,6 @@
 # HeySiri.codes
 
-![image](/img/musemum-screenshot.png)
+![image]()
 
 This is my portfolio page where i show all my projects. 
 
