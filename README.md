@@ -6,6 +6,9 @@ This is my portfolio page where i show all my projects.
 
 ## Description
 
+As an aspiring front end developer, I wanted to make a portfolio to showcase all my projects to potential employers. Luckily, the making of an portfolio was a subject at the end of my first year at Noroff. 
+
+While i have some ideàs to improve the site and things i want to add, the site works great for showing my projects. 
 
 ## Built With
 
