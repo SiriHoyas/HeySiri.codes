@@ -19,7 +19,7 @@ function createHTML(post) {
   projectsContainer.innerHTML += `
   <div class="project-card-wrapper">
   <a href="${post.attributes.liveSiteLink}" class="project-card">
-    <img src="${"https://localhost:1337"}${post.attributes.coverImage.data.attributes.url}" alt="${post.attributes.coverImage.data.attributes.alternativeText}"/>
+    <img src="${"http://localhost:1337"}${post.attributes.coverImage.data.attributes.url}" alt="${post.attributes.coverImage.data.attributes.alternativeText}"/>
     <h2>${post.attributes.projectTitle}</h2>
     <p>${post.attributes.projectExcerpt}</p>
   </a>
