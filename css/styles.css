@@ -52,6 +52,13 @@ hr {
     font-size: .9em;
     width: 11rem;
     text-align: center;
+    background-position: bottom center;
+}
+
+.button:hover {
+    background-image: url(/resources/button-bg.png);
+    background-size: 150%;
+    transition: 400ms ease-in-out;
 }
 
 nav {
