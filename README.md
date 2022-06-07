@@ -1,16 +1,24 @@
 # HeySiri.codes
 
-![image]()
+![image](https://github.com/SiriHoyas/HeySiri.codes/blob/main/resources/portfolio-screenshot.png)
 
 This is my portfolio page where i show all my projects. 
 
 ## Description
 
+As an aspiring front end developer, I wanted to make a portfolio to showcase all my projects to potential employers. Luckily, the making of an portfolio was a subject at the end of my first year at Noroff. 
+
+While i have some ideàs to improve the site and things i want to add, the site works great for showing my projects. 
 
 ## Built With
 
 - HTML
 - CSS
+
+## Future Plans
+
+While this project works fine, I do have some idèas for changes I would like to make in the future. 
+[You can see the changelog here](https://github.com/user/repo/blob/branch/other_file.md)
 
 ## Getting Started
 
