@@ -28,7 +28,7 @@ While this project works fine, I do have some idèas for changes I would like to
 1. Clone the repo:
 
 ```bash
-git clone 
+git clone git@github.com:SiriHoyas/HeySiri.codes.git
 ```
 
 2. Open index.html in your favourite modern browser.
