@@ -6,6 +6,7 @@ async function renderProjects() {
     const response = await fetch(url);
     const result = await response.json();
 
+    projectsContainer.innerHTML = "";
     for (let i = 0; i < result.length; i++) {
       createHTML(result[i]);
       console.log(result[i]);

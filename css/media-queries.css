@@ -60,6 +60,12 @@
         grid-row-gap: 2rem;
    }
 
+   .loader {
+       grid-column: 2;
+       width: 7rem;
+       height: auto;
+   }
+
    .projects-container hr {
        display: none;
    }
