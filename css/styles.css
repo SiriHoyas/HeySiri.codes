@@ -224,3 +224,15 @@ nav {
     background-color: var(--dark-blue);
     color: var(--subheading);
 }
+
+.contact-button {
+    display: flex;
+    justify-content: center
+}
+
+.contact-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: var(--main-heading);
+    margin-right: 1rem;
+}
