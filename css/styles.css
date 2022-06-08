@@ -58,7 +58,13 @@ hr {
 .button:hover {
     background-image: url(/resources/button-bg.png);
     background-size: 150%;
-    transition: 400ms ease-in-out;
+    animation: hoverEffect 10s infinite alternate;
+    
+}
+
+@keyframes hoverEffect {
+    0% {background-position: left;}
+    100% {background-position: right;}
 }
 
 nav {
@@ -190,4 +196,14 @@ nav {
     height: 1.5rem;
     fill: var(--main-heading);
     margin-right: 1rem;
+}
+
+.error {
+    grid-column: 2;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: var(--dark-blue);
+    color: var(--subheading);
 }

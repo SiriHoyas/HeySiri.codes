@@ -11,7 +11,7 @@ async function renderProjects() {
       createHTML(result.data[i]);
     }
   } catch (error) {
-    projectsContainer.innerHTML = `<div class="error"><div>`;
+    projectsContainer.innerHTML = `<div class="error">There was an error. Please refresh or try again later.<div>`;
   }
 }
 
