@@ -1,6 +1,6 @@
 # HeySiri.codes
 
-![image](https://github.com/SiriHoyas/HeySiri.codes/blob/main/resources/portfolio-screenshot.png)
+![image](https://github.com/SiriHoyas/HeySiri.codes/blob/main/resources/screenshot.png)
 
 This is my portfolio page where I show all my projects.
 
