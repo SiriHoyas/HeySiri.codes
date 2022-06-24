@@ -166,10 +166,16 @@ nav {
       transform: rotate(359deg);
     }
   }
-
+.projects-container {
+    margin-bottom: 2rem;
+}
 .projects-container hr {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+}
+
+.project-card-wrapper {
+    background-color: var(--light-blue);
 }
 
 .project-card {
@@ -189,6 +195,22 @@ nav {
     border-radius: 2px;
 }
 
+.project-achievements {
+    padding: 1rem;
+}
+
+.achievements-heading {
+color: var(--main-heading);
+font-size: 1.1em;
+font-weight: 100;
+margin: 0;
+
+}
+
+.achievements-content {
+    margin: 0;
+    margin-top: .3rem;
+}
 
 .project-card h2 {
     align-self: flex-start;

@@ -5,10 +5,11 @@ async function renderProjects() {
   try {
     const response = await fetch(url);
     const result = await response.json();
+    console.log(result);
 
     projectsContainer.innerHTML = "";
     for (let i = 0; i < result.length; i++) {
-      createHTML(result[i]);
+      projectsContainer.innerHTML += createHTML(result[i]);
     }
   } catch (error) {
     projectsContainer.innerHTML = `<div class="error">There was an error. Please refresh or try again later.<div>`;
@@ -17,13 +18,23 @@ async function renderProjects() {
 
 renderProjects();
 function createHTML(post) {
-  projectsContainer.innerHTML += `
+  let htmlForProjectDescription = `
   <div class="project-card-wrapper">
     <a href="${post.acf.live_site}" class="project-card">
       <img src="${post.better_featured_image.media_details.sizes.medium_large.source_url}" alt="${post.acf.alt_text}"/>
       <h2>${post.title.rendered}</h2>
       <p>${post.acf.description}</p>
-    </a>
+    </a>`;
+
+  let htmlForAchievements = "";
+
+  if (post.acf.achievements.length > 0) {
+    htmlForAchievements = `<div class="project-achievements">
+    <p class="achievements-heading">Achievements:</p>
+    <p class="achievements-content">${post.acf.achievements} </div>`;
+  }
+
+  const htmlForGithubLink = `
     <div class="icon-container">
       <a href="${post.acf.github_url}" alt="link to github">
         <svg viewBox="0 0 30.752 30">
@@ -32,6 +43,9 @@ function createHTML(post) {
       </a>
     </div>
 </div>
-  <hr />
-`;
+  <hr />`;
+
+  const html = htmlForProjectDescription + htmlForAchievements + htmlForGithubLink;
+
+  return html;
 }
