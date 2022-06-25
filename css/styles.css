@@ -176,6 +176,8 @@ nav {
 
 .project-card-wrapper {
     background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card {
@@ -186,6 +188,7 @@ nav {
     padding: 1rem;
     padding-bottom: 0;
     border-radius: 2px;
+    flex: 1;
 }
 
 .project-card img {

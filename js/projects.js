@@ -17,6 +17,7 @@ async function renderProjects() {
 }
 
 renderProjects();
+
 function createHTML(post) {
   let htmlForProjectDescription = `
   <div class="project-card-wrapper">
